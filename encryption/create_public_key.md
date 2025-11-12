@@ -4,7 +4,6 @@ The environment variable `CODESPACE_VSCODE_FOLDER` stores your project folder in
 ```
 echo "My project folder is ${CODESPACE_VSCODE_FOLDER}"
 ```
-
 Generate SSH keys
 ```
 ssh-keygen -t rsa -f ${CODESPACE_VSCODE_FOLDER}/my_keypair -N ''
